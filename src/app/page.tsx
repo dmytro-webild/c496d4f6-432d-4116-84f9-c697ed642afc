@@ -59,7 +59,7 @@ export default function LandingPage() {
           href: "tel:0997467230",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg?_wi=1"
       imageAlt="Syria real estate and car market"
       avatars={[
         {
@@ -161,19 +161,19 @@ export default function LandingPage() {
           id: "p1",
           name: "شقة في دمشق",
           price: "اتصل للسعر",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg?_wi=1",
         },
         {
           id: "p2",
           name: "فيلا فاخرة",
           price: "اتصل للسعر",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg?_wi=1",
         },
         {
           id: "p3",
           name: "أرض تجارية",
           price: "اتصل للسعر",
-          imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg?_wi=1",
         },
         {
           id: "p4",
@@ -207,7 +207,7 @@ export default function LandingPage() {
         {
           title: "سيارة سيدان",
           description: "بحالة الوكالة، صيانة دورية.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg?_wi=1",
         },
         {
           title: "سيارة دفع رباعي",
@@ -238,7 +238,7 @@ export default function LandingPage() {
           quote: "تجربة رائعة، العقار كان مطابقاً للمواصفات تماماً.",
           tag: "عقارات",
           avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-corporate-woman-looks-dreamy-smiles-stands-outside-street-leans-her-head-hands_1258-193990.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg?_wi=2",
           imageAlt: "professional man portrait",
         },
         {
@@ -249,7 +249,7 @@ export default function LandingPage() {
           quote: "شراء السيارة كان سهلاً وسريعاً جداً.",
           tag: "سيارات",
           avatarSrc: "http://img.b2bpic.net/free-photo/business-woman-with-crossed-arms-smiling_23-2148095677.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg?_wi=2",
           imageAlt: "professional man portrait",
         },
         {
@@ -260,7 +260,7 @@ export default function LandingPage() {
           quote: "خدمة احترافية جداً، أنصح بالتعامل معهم.",
           tag: "عقارات",
           avatarSrc: "http://img.b2bpic.net/free-photo/girl-sitting-table-holding-mobile-phone-indoors_171337-17097.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg?_wi=2",
           imageAlt: "professional man portrait",
         },
         {
@@ -271,7 +271,7 @@ export default function LandingPage() {
           quote: "السيارة كانت ممتازة، تعاملهم شفاف.",
           tag: "سيارات",
           avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-posing_23-2149271087.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg?_wi=2",
           imageAlt: "professional man portrait",
         },
         {
@@ -282,7 +282,7 @@ export default function LandingPage() {
           quote: "أفضل مكتب عقاري تعاملت معه في دمشق.",
           tag: "عقارات",
           avatarSrc: "http://img.b2bpic.net/free-photo/front-view-sign-language-concept_23-2148572467.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg?_wi=2",
           imageAlt: "professional man portrait",
         },
       ]}
