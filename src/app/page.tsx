@@ -47,7 +47,7 @@ export default function LandingPage() {
             title="وجهتك الموثوقة للعقارات والسيارات في سوريا"
             description="اكتشف أفضل العروض العقارية وأحدث السيارات في سوريا بكل سهولة وأمان."
             buttons={[{ text: "اتصل بنا الآن", href: "tel:0997467230" }]}
-            imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg?_wi=1"
             imageAlt="Syria real estate and car market"
             avatars={[
               { src: "http://img.b2bpic.net/free-photo/professional-woman-standing-with-coffee-busy-street-smiling-camera_1258-119452.jpg", alt: "Professional woman" },
@@ -88,9 +88,9 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={true}
             products={[
-              { id: "p1", name: "شقة في دمشق", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg" },
-              { id: "p2", name: "فيلا فاخرة", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg" },
-              { id: "p3", name: "أرض تجارية", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg" },
+              { id: "p1", name: "شقة في دمشق", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg?_wi=1" },
+              { id: "p2", name: "فيلا فاخرة", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg?_wi=1" },
+              { id: "p3", name: "أرض تجارية", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg?_wi=1" },
               { id: "p4", name: "شقة في حلب", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/real-estate-property-purchase-concept_53876-134037.jpg" },
               { id: "p5", name: "مكتب تجاري", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/glass-designed-building-view_23-2148230382.jpg" },
               { id: "p6", name: "بيت ريفي", price: "اتصل للسعر", imageSrc: "http://img.b2bpic.net/free-photo/modern-building-with-closed-windows_23-2148252721.jpg" },
@@ -105,7 +105,7 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "سيارة سيدان", description: "بحالة الوكالة، صيانة دورية.", imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg" },
+              { title: "سيارة سيدان", description: "بحالة الوكالة، صيانة دورية.", imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg?_wi=1" },
               { title: "سيارة دفع رباعي", description: "قوية ومناسبة لجميع الطرق.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-women-with-smartphone-near-man-looking-map-car-hood_23-2148039112.jpg" },
               { title: "سيارة رياضية", description: "تصميم أنيق وأداء عالٍ.", imageSrc: "http://img.b2bpic.net/free-photo/stylish-elegant-people-car-salon_1157-30160.jpg" },
             ]}
@@ -119,11 +119,11 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={true}
             testimonials={[
-              { id: "1", name: "محمد علي", date: "2023-10-01", title: "عميل راضٍ", quote: "تجربة رائعة، العقار كان مطابقاً للمواصفات تماماً.", tag: "عقارات", avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-corporate-woman-looks-dreamy-smiles-stands-outside-street-leans-her-head-hands_1258-193990.jpg", imageSrc: "http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg" },
-              { id: "2", name: "سارة أحمد", date: "2023-10-15", title: "عميلة راضية", quote: "شراء السيارة كان سهلاً وسريعاً جداً.", tag: "سيارات", avatarSrc: "http://img.b2bpic.net/free-photo/business-woman-with-crossed-arms-smiling_23-2148095677.jpg", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg" },
-              { id: "3", name: "عمر خالد", date: "2023-11-01", title: "عميل راضٍ", quote: "خدمة احترافية جداً، أنصح بالتعامل معهم.", tag: "عقارات", avatarSrc: "http://img.b2bpic.net/free-photo/girl-sitting-table-holding-mobile-phone-indoors_171337-17097.jpg", imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg" },
-              { id: "4", name: "ليلى محمود", date: "2023-11-20", title: "عميلة راضية", quote: "السيارة كانت ممتازة، تعاملهم شفاف.", tag: "سيارات", avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-posing_23-2149271087.jpg", imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg" },
-              { id: "5", name: "ياسر ناصر", date: "2023-12-05", title: "عميل راضٍ", quote: "أفضل مكتب عقاري تعاملت معه في دمشق.", tag: "عقارات", avatarSrc: "http://img.b2bpic.net/free-photo/front-view-sign-language-concept_23-2148572467.jpg", imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg" },
+              { id: "1", name: "محمد علي", date: "2023-10-01", title: "عميل راضٍ", quote: "تجربة رائعة، العقار كان مطابقاً للمواصفات تماماً.", tag: "عقارات", avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-corporate-woman-looks-dreamy-smiles-stands-outside-street-leans-her-head-hands_1258-193990.jpg", imageSrc: "http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg?_wi=2" },
+              { id: "2", name: "سارة أحمد", date: "2023-10-15", title: "عميلة راضية", quote: "شراء السيارة كان سهلاً وسريعاً جداً.", tag: "سيارات", avatarSrc: "http://img.b2bpic.net/free-photo/business-woman-with-crossed-arms-smiling_23-2148095677.jpg", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-mediterranean-door_23-2150902540.jpg?_wi=2" },
+              { id: "3", name: "عمر خالد", date: "2023-11-01", title: "عميل راضٍ", quote: "خدمة احترافية جداً، أنصح بالتعامل معهم.", tag: "عقارات", avatarSrc: "http://img.b2bpic.net/free-photo/girl-sitting-table-holding-mobile-phone-indoors_171337-17097.jpg", imageSrc: "http://img.b2bpic.net/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3106.jpg?_wi=2" },
+              { id: "4", name: "ليلى محمود", date: "2023-11-20", title: "عميلة راضية", quote: "السيارة كانت ممتازة، تعاملهم شفاف.", tag: "سيارات", avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-posing_23-2149271087.jpg", imageSrc: "http://img.b2bpic.net/free-photo/analog-city-landscape-with-buildings_23-2149661414.jpg?_wi=2" },
+              { id: "5", name: "ياسر ناصر", date: "2023-12-05", title: "عميل راضٍ", quote: "أفضل مكتب عقاري تعاملت معه في دمشق.", tag: "عقارات", avatarSrc: "http://img.b2bpic.net/free-photo/front-view-sign-language-concept_23-2148572467.jpg", imageSrc: "http://img.b2bpic.net/free-photo/young-couple-choosing-car-car-show-room_1303-15114.jpg?_wi=2" },
             ]}
             title="ماذا يقول عملاؤنا"
             description="آراء عملائنا الذين وثقوا بخدماتنا."
