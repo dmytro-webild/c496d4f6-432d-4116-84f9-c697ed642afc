@@ -29,32 +29,32 @@ export default function LandingPage() {
       headingFontWeight="normal"
     >
       <ReactLenis root>
-        <div id="nav" data-section="nav">
+        <div id="nav" data-section="nav" dir="rtl">
           <NavbarLayoutFloatingOverlay
             navItems={[
-              { name: "Home", id: "hero" },
-              { name: "Properties", id: "properties" },
-              { name: "Cars", id: "cars" },
-              { name: "Contact", id: "contact" },
+              { name: "الرئيسية", id: "hero" },
+              { name: "العقارات", id: "properties" },
+              { name: "السيارات", id: "cars" },
+              { name: "اتصل بنا", id: "contact" },
             ]}
             brandName="Syria Market"
           />
         </div>
 
-        <div id="hero" data-section="hero">
+        <div id="hero" data-section="hero" dir="rtl">
           <HeroBillboard
             background={{ variant: "gradient-bars" }}
             title="وجهتك الموثوقة للعقارات والسيارات في سوريا"
             description="اكتشف أفضل العروض العقارية وأحدث السيارات في سوريا بكل سهولة وأمان."
             buttons={[{ text: "اتصل بنا الآن", href: "tel:0997467230" }]}
             imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-old-man-car-salon_1157-31831.jpg?_wi=1"
-            imageAlt="Syria real estate and car market"
+            imageAlt="سوق العقارات والسيارات في سوريا"
             avatars={[
-              { src: "http://img.b2bpic.net/free-photo/professional-woman-standing-with-coffee-busy-street-smiling-camera_1258-119452.jpg", alt: "Professional woman" },
-              { src: "http://img.b2bpic.net/free-photo/young-smiling-businessman_1163-3871.jpg", alt: "Young businessman" },
-              { src: "http://img.b2bpic.net/free-photo/portrait-beauty-businesswoman-leaning-against-brick-wall_613910-773.jpg", alt: "Businesswoman portrait" },
-              { src: "http://img.b2bpic.net/free-photo/studio-portrait-redhead-bearded-male-dressed-suit-posing-grey-background_613910-11594.jpg", alt: "Successful professional man" },
-              { src: "http://img.b2bpic.net/free-photo/portrait-successful-young-businessman-with-his-arms-crossed-looking-camera_23-2148176207.jpg", alt: "Successful businessman" },
+              { src: "http://img.b2bpic.net/free-photo/professional-woman-standing-with-coffee-busy-street-smiling-camera_1258-119452.jpg", alt: "محترفة" },
+              { src: "http://img.b2bpic.net/free-photo/young-smiling-businessman_1163-3871.jpg", alt: "رجل أعمال" },
+              { src: "http://img.b2bpic.net/free-photo/portrait-beauty-businesswoman-leaning-against-brick-wall_613910-773.jpg", alt: "سيدة أعمال" },
+              { src: "http://img.b2bpic.net/free-photo/studio-portrait-redhead-bearded-male-dressed-suit-posing-grey-background_613910-11594.jpg", alt: "رجل أعمال ناجح" },
+              { src: "http://img.b2bpic.net/free-photo/portrait-successful-young-businessman-with-his-arms-crossed-looking-camera_23-2148176207.jpg", alt: "رجل أعمال" },
             ]}
             marqueeItems={[
               { type: "text", text: "عقارات سكنية وتجارية" },
@@ -66,7 +66,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="about" data-section="about">
+        <div id="about" data-section="about" dir="rtl">
           <MetricCardSeven
             animationType="slide-up"
             textboxLayout="default"
@@ -81,7 +81,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="properties" data-section="properties">
+        <div id="properties" data-section="properties" dir="rtl">
           <ProductCardThree
             animationType="slide-up"
             textboxLayout="default"
@@ -100,7 +100,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="cars" data-section="cars">
+        <div id="cars" data-section="cars" dir="rtl">
           <FeatureCardSix
             textboxLayout="default"
             useInvertedBackground={false}
@@ -114,7 +114,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="testimonials" data-section="testimonials">
+        <div id="testimonials" data-section="testimonials" dir="rtl">
           <TestimonialCardFive
             textboxLayout="default"
             useInvertedBackground={true}
@@ -130,7 +130,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="metrics" data-section="metrics">
+        <div id="metrics" data-section="metrics" dir="rtl">
           <AboutMetric
             useInvertedBackground={false}
             title="لماذا تختارنا؟"
@@ -143,7 +143,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="faq" data-section="faq">
+        <div id="faq" data-section="faq" dir="rtl">
           <FaqDouble
             textboxLayout="default"
             useInvertedBackground={true}
@@ -158,7 +158,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="contact" data-section="contact">
+        <div id="contact" data-section="contact" dir="rtl">
           <ContactCTA
             useInvertedBackground={false}
             background={{ variant: "radial-gradient" }}
@@ -169,7 +169,7 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="footer" data-section="footer">
+        <div id="footer" data-section="footer" dir="rtl">
           <FooterLogoReveal
             logoText="Syria Market"
             leftLink={{ text: "اتصل بنا: 0997467230", href: "tel:0997467230" }}
